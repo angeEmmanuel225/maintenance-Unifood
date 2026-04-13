@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technicien Four Unifood – Demontage des la garniture du Petit Canon H4</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+
+  <!-- Feuille de style externe -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header>
+  <div class="header-inner">
+    <img src="Logo_unifood.png" alt="Logo Unifood" class="logo-icon">
+    <div class="header-text">
+      <h1>Technicien <span>Four Unifood</span></h1>
+      <p>Rapport Garniture &nbsp;•&nbsp; Petit Canon H4 &nbsp;•&nbsp; Vidéothèque Technique</p>
+    </div>
+    <div class="badge">
+      <span class="code">H4</span>
+      <span class="label">Petit Canon</span>
+    </div>
+  </div>
+  <div class="scanner"></div>
+</header>
+
+<!-- ═══════════════ NAVIGATION ═══════════════ -->
+<nav>
+  <ul>
+    <li><a href="#videos">📹 Vidéos</a></li>
+    <li><a href="#photos">🖼 Photos</a></li>
+    <li><a href="#documents">📄 Documents</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════════ CONTENU PRINCIPAL ═══════════════ -->
+<main>
+
+  
+
+  <!-- ── VIDÉOS ── -->
+  <section id="videos">
+    <p class="section-title">📹 Vidéos Techniques</p>
+    <p class="section-sub">// Regarder en ligne ou télécharger</p>
+
+    <div class="video-grid" id="video-grid">
+
+      <!-- ─ CARD 1 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <!-- Remplace src="" par le chemin de ta vidéo. Ex : src="videos/demo.mp4" -->
+          <video id="v1" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.51.07.mp4">
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
+          <div class="video-placeholder" id="ph1">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-001</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v1','ph1')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl1" href="#" download onclick="return dlCheck(this,'v1')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─ CARD 2 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v2" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.51.35.mp4"></video>
+          <div class="video-placeholder" id="ph2">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-002</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v2','ph2')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl2" href="#" download onclick="return dlCheck(this,'v2')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─ CARD 3 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v3" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.55.47.mp4"></video>
+          <div class="video-placeholder" id="ph3">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-003</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v3','ph3')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl3" href="#" download onclick="return dlCheck(this,'v3')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─ CARD 4 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v4" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.55.53.mp4"></video>
+          <div class="video-placeholder" id="ph4">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-004</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v4','ph4')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl4" href="#" download onclick="return dlCheck(this,'v4')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+      <!-- ─ CARD 5 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v5" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.55.54.mp4"></video>
+          <div class="video-placeholder" id="ph5">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-005</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v5','ph5')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl5" href="#" download onclick="return dlCheck(this,'v5')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+      <!-- ─ CARD 6 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v6" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.55.55.mp4"></video>
+          <div class="video-placeholder" id="ph6">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-006</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v6','ph6')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl6" href="#" download onclick="return dlCheck(this,'v6')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+      <!-- ─ CARD 7 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v7" controls preload="metadata" src="WhatsApp Video 2026-04-09 at 21.55.56.mp4"></video>
+          <div class="video-placeholder" id="ph7">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-007</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v7','ph7')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl7" href="#" download onclick="return dlCheck(this,'v7')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+       <!-- ─ CARD 8 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v8" controls preload="metadata" src="jb.mp4"></video>
+          <div class="video-placeholder" id="ph8">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-008</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v8','ph8')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl8" href="#" download onclick="return dlCheck(this,'v8')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div> <!-- ─ CARD 9 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v9" controls preload="metadata" src="kjlk.mp4"></video>
+          <div class="video-placeholder" id="ph9">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-009</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v9','ph9')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl9" href="#" download onclick="return dlCheck(this,'v9')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div> <!-- ─ CARD 10 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v10" controls preload="metadata" src="kjn.mp4"></video>
+          <div class="video-placeholder" id="ph10">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-0010</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v10','ph10')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl10" href="#" download onclick="return dlCheck(this,'v10')">⬇ Télécharger</a>
+          </div>
+        </div>
+      </div> <!-- ─ CARD 11 ─ -->
+      <div class="video-card">
+        <div class="video-wrap">
+          <video id="v11" controls preload="metadata" src="kjnkl.mp4"></video>
+          <div class="video-placeholder" id="ph11">
+            <div class="play-icon">▶</div>
+            <span>Aucune vidéo chargée</span>
+            <span class="file-tag">MP4 / MOV / AVI</span>
+          </div>
+        </div>
+        <div class="video-info">
+          <div class="vid-num">// VID-0011</div>
+          <h3>montage Garniture H4</h3>
+          <p>Procédure montage de la garniture canon H4.</p>
+          <div class="vid-actions">
+            <button class="btn btn-primary" onclick="playVideo('v11','ph11')">▶ Regarder</button>
+            <a class="btn btn-outline" id="dl11" href="#" download onclick="return dlCheck(this,'v11')">⬇ Télécharger</a>
+          </div>
+        </div>
+
+    </div><!-- /video-grid -->
+    <!-- ═══════════════ FOOTER ═══════════════ 
+    <div class="add-tip">
+      <strong>ℹ Comment ajouter tes propres vidéos ?</strong><br>
+      Option 1 — Utilise la section <strong>Ajouter une Vidéo</strong> ci-dessous pour glisser-déposer ton fichier directement.<br>
+      Option 2 — Ouvre <code>index.html</code> dans un éditeur et renseigne le chemin <code>src="ton_video.mp4"</code> dans chaque balise &lt;video&gt;.<br>
+      Les formats supportés : <strong>MP4, MOV, AVI, WebM</strong>.
+    </div>-->
+  </section>
+
+  <!-- ── PHOTOS ── -->
+  <section id="photos">
+    <p class="section-title">🖼 Photos Techniques</p>
+    <p class="section-sub">// Regarder en ligne ou télécharger</p>
+
+    <div class="photo-grid" id="photo-grid"></div>
+    <!-- /photo-grid -->
+  </section>
+  <!-- /photos -->
+
+  <!-- ── DOCUMENTS ── -->
+  <section id="documents">
+    <p class="section-title">📄 Documents Techniques</p>
+    <p class="section-sub">// Consulter en ligne ou télécharger</p>
+
+    <div class="document-grid" id="document-grid">
+
+      <!-- ─ DOCUMENT 1 ─ -->
+      <div class="document-card">
+        <div class="document-wrap">
+          <div class="document-icon">📋</div>
+          <div class="document-placeholder" id="ph-doc1">
+            <span>Aucun document chargé</span>
+            <span class="file-tag">PDF / DOCX / TXT</span>
+          </div>
+        </div>
+        <div class="document-info">
+          <div class="doc-num">// DOC-001</div>
+          <h3>Fiche Technique H4</h3>
+          <p>Documentation complète et spécifications.</p>
+          <div class="doc-actions">
+            <a class="btn btn-primary" id="view-doc1" href="1110294_BA-Hartbonbonanlage_fr.pdf" target="_blank">👁 Consulter</a>
+            <a class="btn btn-outline" id="dl-doc1" href="1110294_BA-Hartbonbonanlage_fr.pdf" download>⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─ DOCUMENT 2 ─ -->
+      <div class="document-card">
+        <div class="document-wrap">
+          <div class="document-icon">📋</div>
+          <div class="document-placeholder" id="ph-doc2">
+            <span>Aucun document chargé</span>
+            <span class="file-tag">PDF / DOCX / TXT</span>
+          </div>
+        </div>
+        <div class="document-info">
+          <div class="doc-num">// DOC-002</div>
+          <h3>Procédure Maintenance</h3>
+          <p>Guide étape par étape pour l'entretien et le remplacement de la garniture.</p>
+          <div class="doc-actions">
+            <a class="btn btn-primary" id="view-doc2" href="PROCEDURES DE DEMONTAGE DU PETIT CANON.pdf" target="_blank">👁 Consulter</a>
+            <a class="btn btn-outline" id="dl-doc2" href="PROCEDURES DE DEMONTAGE DU PETIT CANON.pdf" download>⬇ Télécharger</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /document-grid -->
+  </section>
+  <!-- /documents -->
+  <!-- /photo-grid 
+  <section id="upload-section">
+    <p class="section-title">📤 Ajouter un Fichier</p>
+    <p class="section-sub">// Charger vidéos & photos — lecture & téléchargement instantanés</p>
+
+    <div class="upload-box" id="upload-box" onclick="document.getElementById('file-input').click()">
+      <div class="up-icon">📁</div>
+      <h3>Glisser-Déposer ou Cliquer</h3>
+      <p>Formats vidéo : MP4, MOV, AVI, WebM | Formats photo : JPG, PNG, JPEG — taille illimitée</p>
+      <button class="btn btn-primary" onclick="event.stopPropagation(); document.getElementById('file-input').click()">
+        Choisir un fichier
+      </button>
+    </div>
+
+    <input type="file" id="file-input" accept="video/*,image/*" multiple onchange="handleFiles(this.files); handleImageFiles(this.files);"/>
+
+    <div id="uploaded-list"></div>
+  </section> -->
+</main>
+
+<!-- ═══════════════ LIGHTBOX MODAL ═══════════════ -->
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-image" src="" alt="Image agrandie" class="lightbox-image" />
+</div>
+
+<!-- ═══════════════ VIDEO MODAL ═══════════════ -->
+<div id="video-modal" class="video-modal">
+  <span class="video-modal-close" onclick="closeVideoModal()">&times;</span>
+  <video id="video-modal-player" controls class="video-modal-player">
+    Votre navigateur ne supporte pas la lecture vidéo.
+  </video>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer>
+  &copy; 2026 &nbsp;|&nbsp; <span>Technicien Four Unifood</span> &nbsp;|&nbsp;
+  Rapport Garniture — Petit Canon <span>H4</span> &nbsp;|&nbsp;
+  Technicien Ange
+</footer>
+
+<!-- ═══════════════ JAVASCRIPT ═══════════════ -->
+<script>
+  /* ─ Liste complète des photos du dossier ─ */
+  const allPhotos = [
+    "BANDE DE REFROIDISSEMENT.png",
+    "Contigrav.png",
+    "FGDG.png",
+    "HGV.jpg",
+    "IMG_20260328_082741.jpg",
+    "IMG_20260328_082753.jpg",
+    "IMG_20260328_082753~2.jpg",
+    "IMG_20260328_082800.jpg",
+    "IMG_20260328_083032.jpg",
+    "IMG_20260328_083243.jpg",
+    "IMG_20260328_083252.jpg",
+    "IMG_20260328_084033.jpg",
+    "IMG_20260328_084038.jpg",
+    "IMG_20260328_084051.jpg",
+    "IMG_20260328_084439.jpg",
+    "IMG_20260328_084514.jpg",
+    "IMG_20260328_084801&.jpg",
+    "IMG_20260328_084801.jpg",
+    "IMG_20260328_085202.jpg",
+    "IMG_20260328_085208.jpg",
+    "IMG_20260328_090737.jpg",
+    "IMG_20260328_090741.jpg",
+    "IMG_20260328_090746.jpg",
+    "IMG_20260328_091716.jpg",
+    "IMG_20260328_091723.jpg",
+    "IMG_20260328_092058.jpg",
+    "IMG_20260328_092823.jpg",
+    "IMG_20260328_092827.jpg",
+    "IMG_20260328_093047.jpg",
+    "IMG_20260328_093329.jpg",
+    "IMG_20260328_102703.jpg",
+    "IMG_20260328_102715.jpg",
+    "IMG_20260328_104749.jpg",
+    "IMG_20260328_104806.jpg",
+    "IMG_20260328_104813.jpg",
+    "moteur-21010511574931073.jpg",
+    "pompe a lobes-21010512031069086.jpg",
+    "PRECUISEUR ET CUISEUR (CROSSFLOW) 1.png",
+    "PRECUISEUR ET CUISEUR (CROSSFLOW).png",
+    "ROTAMAT.png",
+    "Station de slurry.png",
+    "SUCOMA.png",
+    "WhatsApp Image 2026-04-09 at 20.16.47 (1).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.47.jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.50 (1).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.50 (2).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.50 (3).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.50.jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.52 (1).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.52 (2).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.52.jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.53.jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.55 (1).jpeg",
+    "WhatsApp Image 2026-04-09 at 20.16.55.jpeg"
+  ];
+
+  /* ─ Générer toutes les cartes photos dynamiquement ─ */
+  document.addEventListener('DOMContentLoaded', function() {
+    const photoGrid = document.getElementById('photo-grid');
+    
+    allPhotos.forEach((photoName, index) => {
+      const photoId = index + 1;
+      const placeholderId = 'ph-img' + photoId;
+      const dlId = 'dl-img' + photoId;
+      
+      const photoCard = document.createElement('div');
+      photoCard.className = 'photo-card';
+      photoCard.innerHTML = `
+        <div class="photo-wrap">
+          <img id="img${photoId}" src="${photoName}" alt="Photo technique ${photoId}" />
+          <div class="photo-placeholder" id="${placeholderId}" style="display: none;">
+            <div class="image-icon">🖼</div>
+            <span>Aucune photo chargée</span>
+            <span class="file-tag">JPG / PNG / JPEG</span>
+          </div>
+        </div>
+        <div class="photo-info">
+          <div class="pic-num">// PHO-${String(photoId).padStart(3, '0')}</div>
+          <h3>${photoName.substring(0, 40)}</h3>
+          <p>Documentation technique - Petit Canon H4 - Rapport de montage.</p>
+          <div class="pic-actions">
+            <button class="btn btn-primary" onclick="viewPhoto('img${photoId}','${placeholderId}')">👁 Voir</button>
+            <a class="btn btn-outline" id="${dlId}" href="${photoName}" download onclick="return dlCheckImg(this,'img${photoId}')">⬇ Télécharger</a>
+          </div>
+        </div>
+      `;
+      photoGrid.appendChild(photoCard);
+    });
+
+    /* ─ Masquer les placeholders vidéo qui ont du contenu ─ */
+    for (let i = 1; i <= 11; i++) {
+      const v = document.getElementById('v' + i);
+      const ph = document.getElementById('ph' + i);
+      if (v && ph && v.src && v.src !== window.location.href) {
+        ph.style.display = 'none';
+        v.style.display = 'block';
+      }
+    }
+
+    /* ─ Masquer les placeholders document qui ont du contenu ─ */
+    for (let i = 1; i <= 2; i++) {
+      const viewLink = document.getElementById('view-doc' + i);
+      const ph = document.getElementById('ph-doc' + i);
+      if (viewLink && ph && viewLink.href && viewLink.href !== window.location.href) {
+        ph.style.display = 'none';
+      }
+    }
+  });
+
+  /* ─ Lecture vidéo — ouvre le modal vidéo ─ */
+  function playVideo(videoId, placeholderId) {
+    const v  = document.getElementById(videoId);
+    if (!v.src || v.src === window.location.href) {
+      alert('Aucune vidéo chargée pour ce slot.\nUtilise la section "Ajouter une Vidéo" en bas de page, ou renseigne le chemin src dans le HTML.');
+      return;
+    }
+    const videoModal = document.getElementById('video-modal');
+    const videoPlayer = document.getElementById('video-modal-player');
+    videoPlayer.src = v.src;
+    videoModal.style.display = 'flex';
+    videoPlayer.play();
+  }
+
+  /* ─ Ferme le modal vidéo ─ */
+  function closeVideoModal() {
+    const videoModal = document.getElementById('video-modal');
+    const videoPlayer = document.getElementById('video-modal-player');
+    videoPlayer.pause();
+    videoModal.style.display = 'none';
+  }
+
+  /* ─ Vérification téléchargement vidéo ─ */
+  function dlCheck(a, videoId) {
+    const v = document.getElementById(videoId);
+    if (!v.src || v.src === window.location.href) {
+      alert('Aucune vidéo disponible pour ce slot.');
+      return false;
+    }
+    a.href = v.src;
+    a.download = v.src.split('/').pop() || 'video.mp4';
+    return true;
+  }
+
+  /* ─ Drag & Drop ─ */
+  const box = document.getElementById('upload-box');
+  if (box) {
+    box.addEventListener('dragover',  e => { e.preventDefault(); box.classList.add('drag-over'); });
+    box.addEventListener('dragleave', ()  => box.classList.remove('drag-over'));
+    box.addEventListener('drop', e => {
+      e.preventDefault();
+      box.classList.remove('drag-over');
+      handleFiles(e.dataTransfer.files);
+    });
+  }
+
+  /* ─ Gestion des fichiers uploadés ─ */
+  function handleFiles(files) {
+    const list = document.getElementById('uploaded-list');
+
+    Array.from(files).forEach(file => {
+      if (!file.type.startsWith('video/')) return;
+
+      const url    = URL.createObjectURL(file);
+      const sizeMB = (file.size / 1048576).toFixed(1);
+
+      /* construire l'élément */
+      const item = document.createElement('div');
+      item.className = 'up-item';
+
+      const thumb = document.createElement('div');
+      thumb.className = 'up-thumb';
+      const tv = document.createElement('video');
+      tv.src = url; tv.muted = true; tv.preload = 'metadata'; tv.currentTime = 1;
+      thumb.appendChild(tv);
+
+      const nameEl = document.createElement('span');
+      nameEl.className   = 'up-name';
+      nameEl.textContent = file.name;
+
+      const sizeEl = document.createElement('span');
+      sizeEl.className   = 'up-size';
+      sizeEl.textContent = sizeMB + ' MB';
+
+      const dlLink = document.createElement('a');
+      dlLink.className   = 'up-dl';
+      dlLink.href        = url;
+      dlLink.download    = file.name;
+      dlLink.title       = 'Télécharger';
+      dlLink.textContent = '⬇';
+
+      item.appendChild(thumb);
+      item.appendChild(nameEl);
+      item.appendChild(sizeEl);
+      item.appendChild(dlLink);
+      list.appendChild(item);
+
+      /* injecter dans le prochain slot vide */
+      injectSlot(url, file.name);
+    });
+  }
+
+  /* ─ Remplit le prochain slot vidéo vide ─ */
+  function injectSlot(url, name) {
+    for (let i = 1; i <= 4; i++) {
+      const v = document.getElementById('v' + i);
+      if (!v.src || v.src === window.location.href) {
+        v.src = url;
+        const ph = document.getElementById('ph' + i);
+        ph.querySelector('span:not(.file-tag)').textContent = name;
+        const dl = document.getElementById('dl' + i);
+        dl.href     = url;
+        dl.download = name;
+        break;
+      }
+    }
+  }
+
+  /* ─ Lecture photo — ouvre le lightbox modal ─ */
+  function viewPhoto(imgId, placeholderId) {
+    const img = document.getElementById(imgId);
+    if (!img.src || img.src === window.location.href) {
+      alert('Aucune photo chargée pour ce slot.\nUtilise la section "Ajouter" en bas de page pour charger des images.');
+      return;
+    }
+    const lightbox = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-image');
+    lightboxImg.src = img.src;
+    lightbox.style.display = 'flex';
+  }
+
+  /* ─ Ferme le lightbox modal ─ */
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox-modal');
+    lightbox.style.display = 'none';
+  }
+
+  /* ─ Ferme le lightbox au clic sur le fond ou avec la touche ESC ─ */
+  window.addEventListener('load', function() {
+    const lightbox = document.getElementById('lightbox-modal');
+    const videoModal = document.getElementById('video-modal');
+    
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === lightbox) {
+        closeLightbox();
+      }
+    });
+    
+    videoModal.addEventListener('click', function(e) {
+      if (e.target === videoModal) {
+        closeVideoModal();
+      }
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeLightbox();
+        closeVideoModal();
+      }
+    });
+  });
+
+  /* ─ Vérification téléchargement image ─ */
+  function dlCheckImg(a, imgId) {
+    const img = document.getElementById(imgId);
+    if (!img.src || img.src === window.location.href) {
+      alert('Aucune photo disponible pour ce slot.');
+      return false;
+    }
+    return true;
+  }
+
+  /* ─ Gestion des fichiers images uploadés ─ */
+  function handleImageFiles(files) {
+    const list = document.getElementById('uploaded-list');
+
+    Array.from(files).forEach(file => {
+      if (!file.type.startsWith('image/')) return;
+
+      const url    = URL.createObjectURL(file);
+      const sizeMB = (file.size / 1048576).toFixed(1);
+
+      /* construire l'élément */
+      const item = document.createElement('div');
+      item.className = 'up-item';
+
+      const thumb = document.createElement('div');
+      thumb.className = 'up-thumb';
+      const img = document.createElement('img');
+      img.src = url;
+      thumb.appendChild(img);
+
+      const nameEl = document.createElement('span');
+      nameEl.className   = 'up-name';
+      nameEl.textContent = file.name;
+
+      const sizeEl = document.createElement('span');
+      sizeEl.className   = 'up-size';
+      sizeEl.textContent = sizeMB + ' MB';
+
+      const dlLink = document.createElement('a');
+      dlLink.className   = 'up-dl';
+      dlLink.href        = url;
+      dlLink.download    = file.name;
+      dlLink.title       = 'Télécharger';
+      dlLink.textContent = '⬇';
+
+      item.appendChild(thumb);
+      item.appendChild(nameEl);
+      item.appendChild(sizeEl);
+      item.appendChild(dlLink);
+      list.appendChild(item);
+
+      /* injecter dans le prochain slot image vide */
+      injectImageSlot(url, file.name);
+    });
+  }
+
+  /* ─ Remplit le prochain slot image vide ─ */
+  function injectImageSlot(url, name) {
+    for (let i = 1; i <= 4; i++) {
+      const img = document.getElementById('img' + i);
+      if (!img.src || img.src === window.location.href) {
+        img.src = url;
+        const ph = document.getElementById('ph-img' + i);
+        ph.querySelector('span:not(.file-tag)').textContent = name;
+        const dl = document.getElementById('dl-img' + i);
+        dl.href     = url;
+        dl.download = name;
+        break;
+      }
+    }
+  }
+
+  /* ─ Vérification téléchargement document ─ */
+  function dlCheckDoc(a, docId) {
+    const link = document.getElementById('view-' + docId);
+    if (!link.href || link.href === window.location.href) {
+      alert('Aucun document disponible pour ce slot.');
+      return false;
+    }
+    return true;
+  }
+
+  /* ─ Remplit le prochain slot document vide ─ */
+  function injectDocSlot(url, name) {
+    for (let i = 1; i <= 4; i++) {
+      const viewLink = document.getElementById('view-doc' + i);
+      if (!viewLink.href || viewLink.href === window.location.href) {
+        viewLink.href = url;
+        const dlLink = document.getElementById('dl-doc' + i);
+        dlLink.href     = url;
+        dlLink.download = name;
+        const ph = document.getElementById('ph-doc' + i);
+        ph.querySelector('span:not(.file-tag)').textContent = name;
+        break;
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
